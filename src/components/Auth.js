@@ -51,7 +51,6 @@ function RouterAuth({children}) {
 }
 
 export default function Authentication({children, env, config}) {
-  console.log(env);
   return env === "PROD"
     ? <Fragment>{children}</Fragment>
     : (

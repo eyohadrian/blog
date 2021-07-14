@@ -14,7 +14,7 @@ Amplify.configure({
 function MyApp({ Component, pageProps }) {
   return (
     <Auth
-      env={process.env.ENV}
+      env={process.env.NEXT_PUBLIC_ENV}
     >
       <Component {...pageProps} />
     </Auth>
